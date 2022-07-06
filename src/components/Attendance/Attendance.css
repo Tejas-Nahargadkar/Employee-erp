@@ -1,0 +1,17 @@
+
+tbody input{
+    background-color: #ffffff;
+    color: #ffffff;
+    
+}
+tbody tr td{
+  margin-bottom: 1rem;
+  background-color: #fff;
+  padding: 0.5rem 0;
+
+}
+.Table-Row{
+  background-color:rgb(64, 201, 255) ;
+}
+
+

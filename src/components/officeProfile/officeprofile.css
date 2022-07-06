@@ -1,0 +1,98 @@
+.OfficeProfileContainer{
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .WorkProfile{
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 4px 26px -2px rgba(0,0,0,0.11);
+-webkit-box-shadow: 4px 4px 26px -2px rgba(0,0,0,0.11);
+-moz-box-shadow: 4px 4px 26px -2px rgba(0,0,0,0.11);
+  }
+  .WorkProfile{
+    color: rgb(148, 146, 146);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .WorkProfile p{
+    text-align: center;
+    color: rgb(100, 99, 99);
+  }
+  .WorkProfile h3{
+    background-color: #53d7ff;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .rows{
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+}
+.table-container{
+  width: 100%;
+  border: none;
+  border: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    margin: 2rem 0;
+
+}
+.table-container .Container th{
+    text-align: center;
+    background-color: #53d7ff;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+tbody{
+    background-color: rgb(196, 196, 196);
+    
+}
+tbody tr td{
+  margin-bottom: 1rem;
+  background-color: #fff;
+  padding: 0.5rem 0;
+
+}
+.btn{
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.button2 {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.button2:hover {
+  background-color: #3ec8f7;
+  color: white;
+}

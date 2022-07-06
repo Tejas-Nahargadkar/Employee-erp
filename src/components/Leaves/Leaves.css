@@ -1,0 +1,55 @@
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    margin: 2rem 0;
+}
+th{
+    background-color: #ffffff;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+th button{
+    background-color: #1566ff;
+    color: #ffffff;
+}
+tbody{
+    background-color: #1566ff;
+    
+}
+tbody tr td{
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  padding: 0.5rem 0;
+
+}
+.flex-containers{
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Flex-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+.TableRows td {
+    background-color: #46c2fc;
+    color: #ffffff;
+  border-radius: 10px;
+}
+
+.tablehead th {
+  background-color: #5cd1ff;
+  color: white;
+
+}
+
+
+
+  

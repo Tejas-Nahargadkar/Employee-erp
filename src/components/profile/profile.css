@@ -1,0 +1,166 @@
+.PersonalProfile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 5rem;
+}
+.PersonalProfile input{
+    height: 1.8rem;
+    padding-left: 0.5rem;
+}
+.PersonalProfile h2{
+    color: rgb(167, 163, 163);
+}
+.PersonalProfile .PersonalDetails{
+    width: 100%;
+}
+.PersonalProfile .PersonalDetails h3{
+    background-color: #53d7ff;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+.PersonalDetails{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.row{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 10px;
+    font-size: 1rem;
+}
+.row>div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.DateOfBirth{
+    padding: 2px;
+    margin: 10px;
+}
+.gender{
+    padding: 2px;
+    margin: 8px;
+}
+.MobileNo{
+    padding: 2px;
+    margin: 10px;
+}
+.Email{
+    padding: 2px;
+    margin: 8px;
+}
+.PersonalProfile .EducationalQualification{
+    width: 100%;
+}
+.PersonalProfile .EducationalQualification h3{
+    background-color: #53d7ff;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.EduTable table {
+        font-family: arial, sans-serif;
+        border-collapse: separate;
+        width: 100%;
+}
+.EduTable table th{
+    background-color: #dddddd;
+} 
+      
+.HighSchoolTable table {
+        font-family: arial, sans-serif;
+        border-collapse: separate;
+        width: 100%;
+}
+.HighSchoolTable table th{
+    background-color: #dddddd;
+} 
+.PersonalProfile .Address{
+    width: 100%;
+}
+.Address h3{
+    background-color: #53d7ff;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+.PersonalProfile .Identification{
+    width: 100%;
+}
+.PersonalProfile .Identification label {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    padding-top: 2rem;
+}
+.Identification h3{
+    background-color: #53d7ff;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    margin:5px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Identification textarea{
+    width: 100%;
+}
+
+.btn{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.button2 {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  .button2:hover {
+    background-color: #53d7ff;
+    color: white;
+   }
+   .PersonalProfile .EducationalQualification .EduTable input{
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  display: flex;
+ }   
+ .EducationalQualification .HighSchoolTable input{
+  height: 1.5rem;
+  margin-top: 0.5rem;
+  display: flex;
+ }
